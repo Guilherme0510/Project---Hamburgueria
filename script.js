@@ -163,9 +163,9 @@ if(!isOpen){
   console.log(cartItems);
   
   const message = encodeURIComponent(cartItems)
-  const phone = "55(11)932911121"
+  const phone = "https://wa.link/3qoq0c"
 
-  window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addressInput.value}`, "_blank")
+  window.open(`${phone}?text=${message} Endereço: ${addressInput.value}`, "_blank")
 
   cart = []
   updateCartModal()
