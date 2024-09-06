@@ -177,7 +177,7 @@ function checkRestOpen() {
   const data = new Date()
   const hora = data.getHours()
   
-  return hora >= 18 && hora < 22;
+  return hora >= 1 && hora < 23;
 }
 
 const dateSpan = document.getElementById('date-span')
